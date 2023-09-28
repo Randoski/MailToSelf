@@ -2,7 +2,7 @@
   <div class="w-full h-screen">
     <div class="flex rounded-md h-screen">
       <div class="w-full">
-        <form>
+        <form @submit.prevent="signUp">
           <div class="form-body max-w-xl mx-auto lg:p-20 px-8 lg:mt-10 space-y-8">
             <div class="form-head cursor-pointer">
               <!-- <img src="../../../assets/logo/logo.svg" alt="" class="w-10" /> -->
@@ -29,11 +29,10 @@
               <div class="relative z-0 w-full mb-6 group">
                 <input
                   type="email"
-                  name="floating_email"
-                  id="floating_email"
                   class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
                   placeholder=" "
                   required
+                  v-model="email"
                 />
                 <label
                   for="floating_email"
@@ -44,11 +43,10 @@
               <div class="relative z-0 w-full mb-6 group">
                 <input
                   type="password"
-                  name="floating_password"
-                  id="floating_password"
                   class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-primary peer"
                   placeholder=" "
                   required
+                  v-model="password"
                 />
                 <label
                   for="floating_password"
@@ -90,3 +88,29 @@
     </div>
   </div>
 </template>
+
+<script>
+// import { createUserWithEmailAndPassword } from "@/plugins/firebase";
+
+export default {
+  data() {
+    return {
+      email: "",
+      password: "",
+    };
+  },
+  methods: {
+    // async signup() {
+    //   try {
+    //     const userCredential = await createUserWithEmailAndPassword(
+    //       this.email,
+    //       this.password
+    //     );
+    //     const user = userCredential.user;
+    //   } catch (error) {
+    //     console.error(error.message);
+    //   }
+    // },
+  },
+};
+</script>

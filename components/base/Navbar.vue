@@ -18,10 +18,13 @@
         </div>
         <ul
           :class="[open ? 'flex' : 'hidden lg:flex']"
-          class="text-gray-500 w-full h-auto flex flex-col flex-grow lg:items-center pb-4 lg:pb-0 lg:justify-center lg:flex-row origin-top duration-300 xl:space-x-2 space-y-3 lg:space-y-0"
+          class="text-sm text-gray-500 w-full h-auto flex flex-col flex-grow lg:items-center pb-4 lg:pb-0 lg:justify-center lg:flex-row origin-top duration-300 xl:space-x-2 space-y-3 lg:space-y-0"
         >
-          <NuxtLink to="/write-letter" class="cursor-pointer truncate-text mr-4"
+          <NuxtLink to="/write-letter" class="cursor-pointer truncate-text"
             >Write a Letter</NuxtLink
+          >
+          <NuxtLink to="/letters" class="hidden cursor-pointer truncate-text"
+            >Letters</NuxtLink
           >
           <NuxtLink to="/public-letters" class="cursor-pointer truncate-text"
             >Public Letters</NuxtLink
@@ -41,6 +44,11 @@
         >
           Sign Up
         </NuxtLink>
+        <button
+          class="hidden px-8 xl:px-10 py-3 mt-2 bg-inherit text-gradient border border-[#0c66ee] text-sm text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300"
+        >
+          Logout
+        </button>
       </div>
     </div>
   </nav>

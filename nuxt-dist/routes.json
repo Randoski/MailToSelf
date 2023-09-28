@@ -3,36 +3,42 @@
     "name": "forgot-password",
     "path": "/forgot-password",
     "component": "C:\\\\Users\\\\Monye\\\\Downloads\\\\MailToSelf\\\\pages\\\\forgot-password.vue",
-    "chunkName": "pages/forgot-password"
+    "chunkName": "pages/forgot-password",
+    "_name": "_0d78b8f6"
   },
   {
     "name": "log-in",
     "path": "/log-in",
     "component": "C:\\\\Users\\\\Monye\\\\Downloads\\\\MailToSelf\\\\pages\\\\log-in.vue",
-    "chunkName": "pages/log-in"
+    "chunkName": "pages/log-in",
+    "_name": "_0a9a0d04"
   },
   {
     "name": "public-letters",
     "path": "/public-letters",
     "component": "C:\\\\Users\\\\Monye\\\\Downloads\\\\MailToSelf\\\\pages\\\\public-letters.vue",
-    "chunkName": "pages/public-letters"
+    "chunkName": "pages/public-letters",
+    "_name": "_6abc1d59"
   },
   {
     "name": "sign-up",
     "path": "/sign-up",
     "component": "C:\\\\Users\\\\Monye\\\\Downloads\\\\MailToSelf\\\\pages\\\\sign-up.vue",
-    "chunkName": "pages/sign-up"
+    "chunkName": "pages/sign-up",
+    "_name": "_844389aa"
   },
   {
     "name": "write-letter",
     "path": "/write-letter",
     "component": "C:\\\\Users\\\\Monye\\\\Downloads\\\\MailToSelf\\\\pages\\\\write-letter.vue",
-    "chunkName": "pages/write-letter"
+    "chunkName": "pages/write-letter",
+    "_name": "_17c78604"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Monye\\\\Downloads\\\\MailToSelf\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_005ae45c"
   }
 ]

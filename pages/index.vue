@@ -36,11 +36,12 @@
             data-aos-delay="700"
             class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-2"
           >
-            <BaseButton
-              class="max-w-full px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white"
+            <NuxtLink
+              to="write-letter"
+              class="max-w-full px-8 py-4 bg-[#468ef9] hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300 text-white rounded-full"
             >
               Write to Future Self
-            </BaseButton>
+            </NuxtLink>
           </div>
         </div>
         <div class="hidden sm:block col-span-12 lg:col-span-6">
@@ -117,14 +118,6 @@
               course, make necessary adjustments, and ensures you're consistently moving
               toward success.
             </p>
-          </div>
-
-          <div class="flex flex-col sm:flex-row">
-            <BaseButton
-              class="px-10 py-4 bg-inherit text-gradient border border-[#4A8FF6] text-base"
-            >
-              Write a letter
-            </BaseButton>
           </div>
         </div>
         <LandingTradingToolImage data-aos="fade-left" class="hidden sm:block" />
